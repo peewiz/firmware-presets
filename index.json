@@ -3647,10 +3647,27 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/rc_link/ELRS Ludo.txt",
-      "hash": "04168c3dd7337942d7016968c67ba572dc94dbe9a41d01e05dcfd4343acdba25",
+      "fullPath": "presets/4.4/rates/Rates Ludo.txt",
+      "hash": "604bebdc23d7555895dd2e7a246beff2574a37609a0feecba39c00247ef9fc09",
+      "title": "Ludo rates",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "ludo"
+      ],
+      "author": "Peewiz",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/Modes Ludo.txt",
+      "hash": "b8518bdef429466dd75bb9c5aeefda43aee175b296456a3feb167c46d9169453",
       "title": "Modes Radiomaster TX12 Ludo",
       "firmware_version": [
+        "4.3",
         "4.4"
       ],
       "category": "MODES",
