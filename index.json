@@ -3549,9 +3549,10 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD Ludo.txt",
-      "hash": "b02e45defb02c04446939d0507746a18dbaf9c613c547f53410baa65dd431783",
+      "hash": "6350dfb9771e3e6ccc155f6c9df0e5deb49962c805f5ba37e30364374ddb3b80",
       "title": "OSD Ludo Walksnail",
       "firmware_version": [
+        "4.3",
         "4.4"
       ],
       "category": "OSD",
