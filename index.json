@@ -342,7 +342,7 @@
       "log",
       "logging",
       "Long Range",
-      "Ludo",
+      "ludo",
       "mamba",
       "mck",
       "meteor",
@@ -450,6 +450,7 @@
       "transmitter",
       "Tune",
       "twig",
+      "TX12",
       "tx5m.1",
       "tx800",
       "ultra",
@@ -3548,7 +3549,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/OSD Ludo.txt",
-      "hash": "870aacfeeca4ed9b1877137fcd59a3eeb99d5297d1e99fa2fb6a730cc77c0e13",
+      "hash": "b02e45defb02c04446939d0507746a18dbaf9c613c547f53410baa65dd431783",
       "title": "OSD Ludo Walksnail",
       "firmware_version": [
         "4.4"
@@ -3557,7 +3558,7 @@
       "status": "COMMUNITY",
       "keywords": [
         "OSD",
-        "Ludo"
+        "ludo"
       ],
       "author": "Peewiz",
       "priority": 0
@@ -3643,6 +3644,23 @@
       ],
       "author": "Daniel Appel / Tehllama",
       "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/rc_link/ELRS Ludo.txt",
+      "hash": "04168c3dd7337942d7016968c67ba572dc94dbe9a41d01e05dcfd4343acdba25",
+      "title": "Modes Radiomaster TX12 Ludo",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "modes",
+        "ludo",
+        "TX12"
+      ],
+      "author": "Peewiz",
       "priority": 0
     },
     {

@@ -1,0 +1,22 @@
+#$ TITLE: Modes Radiomaster TX12 Ludo
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: modes, ludo, TX12
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: Modes Radiomaster TX12 Ludo
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 46 3 1300 2100 0 0
+aux 2 13 1 1700 2100 0 0
+aux 3 13 2 1700 2100 1 0
+aux 4 35 2 1700 2100 0 0
+aux 5 36 2 1700 2100 0 0
+aux 6 36 1 1700 2100 0 0
+
+# adjrange
+adjrange 0 0 5 900 2100 29 5 0 0
+adjrange 1 0 4 900 2100 30 4 0 0

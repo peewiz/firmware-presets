@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: OSD, Ludo
+#$ KEYWORDS: OSD, ludo
 #$ AUTHOR: Peewiz
 #$ DESCRIPTION: OSD Ludo Walksnail
 
