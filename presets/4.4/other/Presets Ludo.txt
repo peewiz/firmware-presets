@@ -23,6 +23,13 @@
 #$ DESCRIPTION: *** Leds (roses)
 #$ DESCRIPTION: CLI : set ledstrip_race_color = DEEP_PINK
 
+
+# master
+set small_angle = 180
+set dshot_bidir = ON
+set yaw_motors_reversed = ON
+set report_cell_voltage = ON
+
 #$ OPTION BEGIN (CHECKED): Modes
 	#$ INCLUDE: presets/4.3/modes/defaults.txt
 

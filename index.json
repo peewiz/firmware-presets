@@ -3549,7 +3549,7 @@
     },
     {
       "fullPath": "presets/4.4/other/Presets Ludo.txt",
-      "hash": "5d6a803387d66f94f4f8b1bf8f04990e418a579712ffed0c128ca381a500d97e",
+      "hash": "7ee3f7c0bcaafcf3cfd2eaa7c0ed080fb25f00dc0eb37a74a0628d3d7abced8e",
       "title": "Presets Ludo (Modes, Rates, OSD)",
       "firmware_version": [
         "4.3",
@@ -4124,6 +4124,24 @@
         "7 Inch"
       ],
       "author": "SupaflyFPV",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/Tune Armatan Ludo.txt",
+      "hash": "fb7b207527a380f4c6c19d86f090aa32d462ed11cb62f3526584419c0309d8a4",
+      "title": "Armatan Ludo : TUNE + FILTERS",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "filters"
+      ],
+      "author": "Peewiz",
       "priority": 1000000000000
     },
     {
