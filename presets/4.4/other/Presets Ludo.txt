@@ -1,7 +1,7 @@
-#$ TITLE: OSD Ludo Walksnail
+#$ TITLE: Presets Ludo (Modes, Rates, OSD)
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
-#$ CATEGORY: BNF
+#$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Ludo, OSD, rates, modes, TX12, walksnail
 #$ AUTHOR: Peewiz

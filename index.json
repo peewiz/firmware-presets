@@ -139,7 +139,6 @@
       "4.4"
     ],
     "category": [
-      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -3549,14 +3548,14 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/bnf/Config Ludo.txt",
-      "hash": "6c8d92e7bf3d9373d011b5f4d85e84a0513d2d6247a579ca8e7de3c2dcecaf77",
-      "title": "OSD Ludo Walksnail",
+      "fullPath": "presets/4.4/other/Presets Ludo.txt",
+      "hash": "e80d35181e1ee98c863fdba42cc52e741236bbb102f60ef8c2de270aca574057",
+      "title": "Presets Ludo (Modes, Rates, OSD)",
       "firmware_version": [
         "4.3",
         "4.4"
       ],
-      "category": "BNF",
+      "category": "OTHER",
       "status": "COMMUNITY",
       "keywords": [
         "Ludo",
@@ -3565,23 +3564,6 @@
         "modes",
         "TX12",
         "walksnail"
-      ],
-      "author": "Peewiz",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/OSD Ludo.txt",
-      "hash": "6350dfb9771e3e6ccc155f6c9df0e5deb49962c805f5ba37e30364374ddb3b80",
-      "title": "OSD Ludo Walksnail",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "OSD",
-        "ludo"
       ],
       "author": "Peewiz",
       "priority": 0
@@ -3667,40 +3649,6 @@
       ],
       "author": "Daniel Appel / Tehllama",
       "force_options_review": true,
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/rates/Rates Ludo.txt",
-      "hash": "23466a61a386ccad97c564b466256d32991dec6d7b84f9065d98b66aaa08493b",
-      "title": "Ludo rates",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "ludo"
-      ],
-      "author": "Peewiz",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.4/rc_link/Modes Ludo.txt",
-      "hash": "b8518bdef429466dd75bb9c5aeefda43aee175b296456a3feb167c46d9169453",
-      "title": "Modes Radiomaster TX12 Ludo",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "MODES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "modes",
-        "ludo",
-        "TX12"
-      ],
-      "author": "Peewiz",
       "priority": 0
     },
     {
