@@ -139,6 +139,7 @@
       "4.4"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -342,7 +343,7 @@
       "log",
       "logging",
       "Long Range",
-      "ludo",
+      "Ludo",
       "mamba",
       "mck",
       "meteor",
@@ -3546,6 +3547,27 @@
       ],
       "author": "sugarK",
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.4/bnf/Config Ludo.txt",
+      "hash": "6c8d92e7bf3d9373d011b5f4d85e84a0513d2d6247a579ca8e7de3c2dcecaf77",
+      "title": "OSD Ludo Walksnail",
+      "firmware_version": [
+        "4.3",
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "Ludo",
+        "OSD",
+        "rates",
+        "modes",
+        "TX12",
+        "walksnail"
+      ],
+      "author": "Peewiz",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.4/osd/OSD Ludo.txt",
