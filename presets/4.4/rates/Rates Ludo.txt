@@ -1,6 +1,4 @@
 #$ TITLE: Ludo rates
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: ludo
@@ -11,7 +9,8 @@
 #$ DESCRIPTION: Picth = 120 / 700 / 0.20
 #$ DESCRIPTION: Yaw   = 120 / 700 / 0.20
 #$ DESCRIPTION: Trottle= 0.20 / 0.20
-#$ WARNING: Trottle à re-configurer manuellement seleon les moteurs
+#$ DESCRIPTION: 
+#$ DESCRIPTION: <strong>Trottle à re-configurer manuellement seleon les moteurs</strong>
 
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
