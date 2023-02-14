@@ -4129,9 +4129,9 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/tune/Tune Armattan Ludo.txt",
-      "hash": "40b9b8885cbfa2af822b79d0176aea655d2297bcfad04d114cd842496b51afb4",
-      "title": "Armattan Ludo : TUNE + FILTERS",
+      "fullPath": "presets/4.4/tune/Tune Armattan Badger Ludo.txt",
+      "hash": "ab7ed00be215a1ebe2ef7ba7aaa6cb1ec9a23582274fdb0ca23310e336ce9435",
+      "title": "Armattan Badger Ludo : TUNE + FILTERS",
       "firmware_version": [
         "4.3",
         "4.4"
@@ -4149,7 +4149,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/Tune Roma F5 Ludo.txt",
-      "hash": "de072e5657bdf1b66d35797573c6d1cbddb936249c4a2d19bac405e82ab01fd8",
+      "hash": "7866a5adf0ee74ea4d9032cb6c9db61d3a4fc5e53b608c02fa0cdf921eb5be3a",
       "title": "Roma F5 Ludo : TUNE + FILTERS",
       "firmware_version": [
         "4.3",

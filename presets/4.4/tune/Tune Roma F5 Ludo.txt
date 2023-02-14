@@ -11,6 +11,7 @@
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # name: ROMA F5
+set craft_name = ROMA F5
 
 # master
 set gyro_lpf1_static_hz = 0

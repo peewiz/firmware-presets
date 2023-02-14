@@ -1,16 +1,17 @@
-#$ TITLE:  Armattan Ludo : TUNE + FILTERS
+#$ TITLE:  Armattan Badger Ludo : TUNE + FILTERS
 #$ FIRMWARE_VERSION: 4.3
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid, filters, Armattan
 #$ AUTHOR: Peewiz
-#$ DESCRIPTION: Armattan Ludo : TUNE + FILTERS
+#$ DESCRIPTION: Armattan Badger Ludo : TUNE + FILTERS
 
 #$ INCLUDE: presets/4.4/tune/defaults.txt
 #$ INCLUDE: presets/4.3/filters/defaults.txt
 
 # name: BADGER
+set craft_name = BADGER
 
 # master
 set gyro_lpf1_static_hz = 0
