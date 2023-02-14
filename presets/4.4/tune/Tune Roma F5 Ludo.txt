@@ -12,6 +12,8 @@
 
 # name: ROMA F5
 set craft_name = ROMA F5
+set dshot_bidir = ON
+set bat_capacity = 1500
 
 # master
 set gyro_lpf1_static_hz = 0
