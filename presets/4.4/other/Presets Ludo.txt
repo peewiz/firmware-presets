@@ -25,6 +25,7 @@
 
 # map
 map TAER1234
+set min_check = 1020
 
 # master
 set small_angle = 180
