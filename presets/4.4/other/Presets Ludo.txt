@@ -23,6 +23,8 @@
 #$ DESCRIPTION: *** Leds (roses)
 #$ DESCRIPTION: CLI : set ledstrip_race_color = DEEP_PINK
 
+# map
+map TAER1234
 
 # master
 set small_angle = 180
