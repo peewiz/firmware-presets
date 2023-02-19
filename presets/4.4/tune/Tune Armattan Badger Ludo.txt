@@ -14,6 +14,7 @@
 set craft_name = BADGER
 
 # serial
+set osd_displayport_device = MSP
 serial 1 131073 115200 57600 0 115200
 serial 3 0 115200 57600 0 115200
 serial 4 2 115200 57600 0 115200
