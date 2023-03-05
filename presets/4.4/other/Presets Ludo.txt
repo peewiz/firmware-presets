@@ -125,6 +125,7 @@ set report_cell_voltage = ON
 	# feature
 	feature GPS
 	set failsafe_procedure = GPS-RESCUE
+	set gps_rescue_allow_arming_without_fix = OFF
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LED (roses)
