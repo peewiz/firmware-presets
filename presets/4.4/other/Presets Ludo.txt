@@ -122,19 +122,23 @@ set report_cell_voltage = ON
 
 #$ OPTION END
 
-#$ OPTION_GROUP BEGIN: BATTERIE
+#$ OPTION_GROUP BEGIN: VOLUME BATTERIE
 	#$ OPTION BEGIN (CHECKED): 1500 mah
 		set bat_capacity = 1500
-		set vbat_max_cell_voltage = 425
-		set vbat_min_cell_voltage = 350
-		set vbat_warning_cell_voltage = 360
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): 550 mah
 		set bat_capacity = 550
-		set vbat_max_cell_voltage = 425
-		set vbat_min_cell_voltage = 350
-		set vbat_warning_cell_voltage = 360
 	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: ESC (réglage ampérage)
+	#$ OPTION BEGIN (UNCHECKED): MAMBA F40 _ BLS MINI
+		set ibata_scale = 183
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): MAMBA F50 _ BLS
+		set ibata_scale = 80
+	#$ OPTION END
+
 #$ OPTION_GROUP END
 
 #$ OPTION BEGIN (UNCHECKED): GPS
