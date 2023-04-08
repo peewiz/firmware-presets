@@ -26,6 +26,7 @@
 # map
 map TAER1234
 set min_check = 1020
+feature TELEMETRY
 
 # master
 set small_angle = 180
