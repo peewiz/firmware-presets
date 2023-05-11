@@ -72,8 +72,6 @@ set report_cell_voltage = ON
 
 #$ OPTION BEGIN (CHECKED): OSD HD
 
-	#$ INCLUDE: presets/4.3/vtx/defaults.txt
-
 	set osd_canvas_width = 53
 	set osd_canvas_height = 20
 	set vcd_video_system = HD
@@ -143,16 +141,14 @@ set report_cell_voltage = ON
 #$ OPTION_GROUP END
 
 #$ OPTION BEGIN (UNCHECKED): GPS
-	#$ INCLUDE: presets/4.3/other/reset_gps.txt
 	# feature
 	feature GPS
 	set failsafe_procedure = GPS-RESCUE
 	set gps_rescue_allow_arming_without_fix = ON
+	set gps_rescue_min_sats = 7
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LED (roses)
-
-	#$ INCLUDE: presets/4.3/leds/defaults.txt
 	
 	# feature
 	feature LED_STRIP
