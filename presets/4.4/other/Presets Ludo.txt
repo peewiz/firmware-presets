@@ -137,7 +137,6 @@ set report_cell_voltage = ON
 	#$ OPTION BEGIN (UNCHECKED): MAMBA F50 _ BLS
 		set ibata_scale = 80
 	#$ OPTION END
-
 #$ OPTION_GROUP END
 
 #$ OPTION BEGIN (UNCHECKED): GPS
@@ -146,6 +145,11 @@ set report_cell_voltage = ON
 	set failsafe_procedure = GPS-RESCUE
 	set gps_rescue_allow_arming_without_fix = ON
 	set gps_rescue_min_sats = 7
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): N'A PAS DE BUZZER
+	beacon RX_LOST
+	beacon RX_SET
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): LED (roses)
