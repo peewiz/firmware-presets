@@ -332,6 +332,7 @@
       "karate",
       "KarateBrot",
       "kim",
+      "Larva X",
       "launch",
       "launch_mode",
       "LeadFingers",
@@ -3900,6 +3901,24 @@
         "tinyTrainer"
       ],
       "author": "sugarK",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/Larva X.txt",
+      "hash": "be0058511bf61d8f909b92f43fb3550681acee9488b7fec340d3f36f30ce4655",
+      "title": "Larva X Ludo : SERIALS + TUNE + FILTERS",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "filters",
+        "Larva X"
+      ],
+      "author": "Peewiz",
       "priority": 1000000000000
     },
     {

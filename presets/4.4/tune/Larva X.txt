@@ -1,0 +1,33 @@
+#$ TITLE:  Larva X Ludo : SERIALS + TUNE + FILTERS
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, filters, Larva X
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: Larva X Ludo : SERIALS + TUNE + FILTERS
+
+#$ INCLUDE: presets/4.4/tune/defaults.txt
+#$ INCLUDE: presets/4.3/filters/defaults.txt
+
+# name: Larva X
+set craft_name = Larva X
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 1 0 115200 57600 0 115200
+
+
+# master
+set debug_mode = GYRO_SCALED
+set dshot_bidir = ON
+set bat_capacity = 500
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+
+#moteurs
+set motor_poles = 12
+
+
+# beeper
+beeper -ON_USB
