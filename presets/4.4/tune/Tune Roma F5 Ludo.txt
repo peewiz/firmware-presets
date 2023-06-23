@@ -7,9 +7,6 @@
 #$ AUTHOR: Peewiz
 #$ DESCRIPTION: Roma F5 Ludo : TUNE + FILTERS
 
-#$ INCLUDE: presets/4.4/tune/defaults.txt
-#$ INCLUDE: presets/4.3/filters/defaults.txt
-
 # name: ROMA F5
 set craft_name = ROMA F5
 

@@ -35,7 +35,6 @@ set yaw_motors_reversed = ON
 set report_cell_voltage = ON
 
 #$ OPTION BEGIN (CHECKED): Modes
-	#$ INCLUDE: presets/4.3/modes/defaults.txt
 
 	# aux
 	aux 0 0 0 1700 2100 0 0
@@ -52,7 +51,6 @@ set report_cell_voltage = ON
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates
-	#$ INCLUDE: presets/4.3/rates/defaults.txt
 
 	rateprofile 0
 
