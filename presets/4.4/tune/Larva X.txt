@@ -24,8 +24,8 @@ set acc_lpf_hz = 10
 set acc_calibration = 34,150,118,1
 set min_check = 1020
 set rc_smoothing_auto_factor = 25
-set rc_smoothing_auto_factor_throttle = 25
 set bat_capacity = 500
+set rc_smoothing_auto_factor_throttle = 25
 set vbat_warning_cell_voltage = 380
 set small_angle = 180
 
