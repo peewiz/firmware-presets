@@ -6,9 +6,6 @@
 #$ AUTHOR: Peewiz
 #$ DESCRIPTION: Larva X Ludo : SERIALS + TUNE + FILTERS
 
-#$ INCLUDE: presets/4.4/tune/defaults.txt
-#$ INCLUDE: presets/4.3/filters/defaults.txt
-
 # name: Larva X
 set craft_name = Larva X
 
@@ -31,10 +28,21 @@ set small_angle = 180
 
 #moteurs
 set motor_poles = 12
-set motor_pwm_protocol = DSHOT300 
+set motor_pwm_protocol = DSHOT300
 set dshot_bidir = ON
 set yaw_motors_reversed = ON
 
 
 # beeper
 beeper -ON_USB
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set i_pitch = 50
+set i_roll = 47
+set i_yaw = 47
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+set simplified_i_gain = 60
