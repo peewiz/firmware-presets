@@ -122,10 +122,10 @@ set debug_mode = GYRO_SCALED
 
 #$ OPTION_GROUP BEGIN: FC (réglage PID loop)
 	#$ OPTION BEGIN (UNCHECKED): F7 (8 Khz)
-		pid_process_denom = 1
+		set pid_process_denom = 1
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): F4 (4 Khz)
-		pid_process_denom = 2
+		set pid_process_denom = 2
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -155,7 +155,7 @@ set debug_mode = GYRO_SCALED
 	#$ OPTION BEGIN (CHECKED): 1500 mah
 		set bat_capacity = 1500
 	#$ OPTION END
-	#$ OPTION BEGIN (CHECKED): 850 mah
+	#$ OPTION BEGIN (UNCHECKED): 850 mah
 		set bat_capacity = 850
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): 550 mah
