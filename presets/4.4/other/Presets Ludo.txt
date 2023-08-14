@@ -33,6 +33,7 @@ set small_angle = 180
 set dshot_bidir = ON
 set yaw_motors_reversed = ON
 set report_cell_voltage = ON
+set debug_mode = GYRO_SCALED
 
 #$ OPTION BEGIN (CHECKED): Modes
 
@@ -119,12 +120,12 @@ set report_cell_voltage = ON
 
 #$ OPTION END
 
-#$ OPTION_GROUP BEGIN: VOLUME BATTERIE
-	#$ OPTION BEGIN (CHECKED): 1500 mah
-		set bat_capacity = 1500
+#$ OPTION_GROUP BEGIN: FC (réglage PID loop)
+	#$ OPTION BEGIN (UNCHECKED): F7 (8 Khz)
+		pid_process_denom = 1
 	#$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): 550 mah
-		set bat_capacity = 550
+	#$ OPTION BEGIN (UNCHECKED): F4 (4 Khz)
+		pid_process_denom = 2
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -134,6 +135,31 @@ set report_cell_voltage = ON
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): MAMBA F50 _ BLS
 		set ibata_scale = 80
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Moteurs (réglage PÔLES + DSHOT 300)
+	#$ OPTION BEGIN (UNCHECKED): 14 poles in 22XX, 23XX, 24XX motors
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 12
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 12 poles in 08XX, 11XX, 12XX, 13XX, 14XX, 16XX motors
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: VOLUME BATTERIE
+	#$ OPTION BEGIN (CHECKED): 1500 mah
+		set bat_capacity = 1500
+	#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): 850 mah
+		set bat_capacity = 850
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 550 mah
+		set bat_capacity = 550
 	#$ OPTION END
 #$ OPTION_GROUP END
 
