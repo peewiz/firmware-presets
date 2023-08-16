@@ -15,13 +15,7 @@
 #$ DESCRIPTION: Trottle= 0.20 / 0.20
 #$ DESCRIPTION: 
 #$ DESCRIPTION: ATTENTION : Trottle expo à re-configurer manuellement seleon les moteurs ! 
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *** OSD Ludo Walksnail
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *** GPS
-#$ DESCRIPTION: 
-#$ DESCRIPTION: *** Leds (roses)
-#$ DESCRIPTION: CLI : set ledstrip_race_color = DEEP_PINK
+
 
 # map
 map TAER1234
@@ -51,7 +45,7 @@ set debug_mode = GYRO_SCALED
 	adjrange 1 0 4 900 2100 30 4 0 0
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Rates
+#$ OPTION BEGIN (CHECKED): Rates (Actual=120/700/0.20  Trottle=0.20/ 0.20)
 
 	rateprofile 0
 
@@ -150,6 +144,17 @@ set debug_mode = GYRO_SCALED
 		set motor_poles = 14
 	#$ OPTION END
 #$ OPTION_GROUP END
+
+# https://oscarliang.com/how-to-enable-and-configure-betaflight-dynamic-idle/
+#$ OPTION_GROUP BEGIN: Hélices (Dynamic idle)
+	#$ OPTION BEGIN (UNCHECKED): 3" pitch > 3.5
+		set dyn_idle_min_rpm = 45
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 5" pitch > 3.5
+		set dyn_idle_min_rpm = 25
+	#$ OPTION END
+#$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: VOLUME BATTERIE
 	#$ OPTION BEGIN (CHECKED): 1500 mah
