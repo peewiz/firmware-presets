@@ -147,10 +147,10 @@ set debug_mode = GYRO_SCALED
 
 # https://oscarliang.com/how-to-enable-and-configure-betaflight-dynamic-idle/
 #$ OPTION_GROUP BEGIN: Hélices (Dynamic idle)
-	#$ OPTION BEGIN (UNCHECKED): 3" pitch > 3.5
+	#$ OPTION BEGIN (UNCHECKED): 3" pitch au delà de 3.5
 		set dyn_idle_min_rpm = 45
 	#$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): 5" pitch > 3.5
+	#$ OPTION BEGIN (UNCHECKED): 5" pitch au delà de 3.5
 		set dyn_idle_min_rpm = 25
 	#$ OPTION END
 #$ OPTION_GROUP END
