@@ -136,19 +136,19 @@ set debug_mode = GYRO_SCALED
 	#$ OPTION BEGIN (UNCHECKED): 14 poles in 22XX, 23XX, 24XX motors
 		set dshot_bidir = ON
 		set motor_pwm_protocol = DSHOT300
-		set motor_poles = 12
+		set motor_poles = 14
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): 12 poles in 08XX, 11XX, 12XX, 13XX, 14XX, 16XX motors
 		set dshot_bidir = ON
 		set motor_pwm_protocol = DSHOT300
-		set motor_poles = 14
+		set motor_poles = 12
 	#$ OPTION END
 #$ OPTION_GROUP END
 
 # https://oscarliang.com/how-to-enable-and-configure-betaflight-dynamic-idle/
 #$ OPTION_GROUP BEGIN: Hélices (Dynamic idle)
 	#$ OPTION BEGIN (UNCHECKED): 3" pitch au delà de 3.5
-		set dyn_idle_min_rpm = 45
+		set dyn_idle_min_rpm = 40
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): 5" pitch au delà de 3.5
 		set dyn_idle_min_rpm = 25
