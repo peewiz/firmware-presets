@@ -1,6 +1,5 @@
 #$ TITLE: Presets Ludo (Modes, Rates, OSD)
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: Ludo, OSD, rates, modes, TX12, walksnail
