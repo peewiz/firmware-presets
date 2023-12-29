@@ -1,5 +1,5 @@
 #$ TITLE:  Larva X Ludo : SERIALS + TUNE + FILTERS
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid, filters, Larva X

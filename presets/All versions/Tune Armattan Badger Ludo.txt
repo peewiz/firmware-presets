@@ -1,6 +1,5 @@
 #$ TITLE:  Armattan Badger Ludo : SERIALS + TUNE + FILTERS
-#$ FIRMWARE_VERSION: 4.3
-#$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: tune, pid, filters, Armattan
