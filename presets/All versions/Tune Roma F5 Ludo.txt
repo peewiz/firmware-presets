@@ -1,0 +1,57 @@
+#$ TITLE:  Roma F5 Ludo : SERIALS + TUNE + FILTERS
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, filters, Roma F5
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: Roma F5 Ludo : TUNE + FILTERS
+
+# name: ROMA F5
+set craft_name = ROMA F5
+
+# serial
+set osd_displayport_device = MSP
+serial 1 131073 115200 57600 0 115200
+serial 3 0 115200 57600 0 115200
+serial 4 2 115200 57600 0 115200
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 500
+set gyro_lpf1_dyn_min_hz = 0
+set debug_mode = GYRO_SCALED
+set dshot_bidir = ON
+set bat_capacity = 1500
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+
+# beeper
+beeper -ON_USB
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set iterm_relax_cutoff = 10
+set p_pitch = 61
+set i_pitch = 81
+set d_pitch = 59
+set f_pitch = 211
+set p_roll = 58
+set i_roll = 78
+set d_roll = 52
+set f_roll = 202
+set p_yaw = 58
+set i_yaw = 78
+set f_yaw = 202
+set d_min_roll = 39
+set d_min_pitch = 44
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_jitter_factor = 3
+set feedforward_boost = 18
+set dyn_idle_min_rpm = 30
+set simplified_master_multiplier = 130
+set simplified_i_gain = 75
+set simplified_feedforward_gain = 130

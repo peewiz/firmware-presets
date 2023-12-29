@@ -1,0 +1,212 @@
+#$ TITLE: Presets Ludo (Modes, Rates, OSD)
+#$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
+#$ CATEGORY: OTHER
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: Ludo, OSD, rates, modes, TX12, walksnail
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: *** Modes (Radiomaster TX12 Ludo)
+#$ DESCRIPTION: 
+#$ DESCRIPTION: *** Rates
+#$ DESCRIPTION: Actual
+#$ DESCRIPTION: Roll  = 120 / 700 / 0.20
+#$ DESCRIPTION: Picth = 120 / 700 / 0.20
+#$ DESCRIPTION: Yaw   = 120 / 700 / 0.20
+#$ DESCRIPTION: Trottle= 0.20 / 0.20
+#$ DESCRIPTION: 
+#$ DESCRIPTION: ATTENTION : Trottle expo à re-configurer manuellement seleon les moteurs ! 
+
+
+# map
+map TAER1234
+set min_check = 1020
+feature TELEMETRY
+
+# master
+set small_angle = 180
+set dshot_bidir = ON
+set yaw_motors_reversed = ON
+set report_cell_voltage = ON
+set debug_mode = GYRO_SCALED
+
+#$ OPTION BEGIN (CHECKED): Modes
+
+	# aux
+	aux 0 0 0 1700 2100 0 0
+	aux 1 46 3 1300 2100 0 0
+	aux 2 13 1 1700 2100 0 0
+	aux 3 13 2 1700 2100 1 0
+	aux 4 35 2 1700 2100 0 0
+	aux 5 36 2 1700 2100 0 0
+	aux 6 36 1 1700 2100 0 0
+
+	# adjrange
+	adjrange 0 0 5 900 2100 29 5 0 0
+	adjrange 1 0 4 900 2100 30 4 0 0
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Rates (Actual=120/700/0.20  Trottle=0.20/ 0.20)
+	
+	rateprofile 0
+
+	# rateprofile 0
+	set rateprofile_name = Ludo
+	set thr_mid = 20
+	set thr_expo = 20
+	set roll_rc_rate = 12
+	set pitch_rc_rate = 12
+	set yaw_rc_rate = 12
+	set roll_expo = 20
+	set pitch_expo = 20
+	set yaw_expo = 20
+	set roll_srate = 70
+	set pitch_srate = 70
+	set yaw_srate = 50
+
+	rateprofile 1
+
+	# rateprofile 1
+	set rateprofile_name = Tunning
+	set roll_rc_rate = 20
+	set pitch_rc_rate = 20
+	set yaw_rc_rate = 20
+	set roll_srate = 20
+	set pitch_srate = 20
+	set yaw_srate = 20
+
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): OSD HD
+
+	set osd_canvas_width = 53
+	set osd_canvas_height = 20
+	set vcd_video_system = HD
+	set osd_rssi_alarm = 99
+	set osd_rssi_dbm_alarm = -100
+	set osd_cap_alarm = 690
+	set osd_alt_alarm = 0
+	set osd_vbat_pos = 385
+	set osd_rssi_pos = 13
+	set osd_link_quality_pos = 2067
+	set osd_rssi_dbm_pos = 2099
+	set osd_tim_2_pos = 407
+	set osd_remaining_time_estimate_pos = 408
+	set osd_anti_gravity_pos = 330
+	set osd_g_force_pos = 2077
+	set osd_vtx_channel_pos = 247
+	set osd_crosshairs_pos = 4441
+	set osd_ah_sbar_pos = 4635
+	set osd_mah_drawn_pos = 2641
+	set osd_motor_diag_pos = 257
+	set osd_craft_name_pos = 321
+	set osd_gps_speed_pos = 2077
+	set osd_gps_lon_pos = 2144
+	set osd_gps_lat_pos = 2112
+	set osd_gps_sats_pos = 2176
+	set osd_home_dir_pos = 10248
+	set osd_home_dist_pos = 2048
+	set osd_altitude_pos = 18464
+	set osd_warnings_pos = 10550
+	set osd_avg_cell_voltage_pos = 3650
+	set osd_pit_ang_pos = 4458
+	set osd_rol_ang_pos = 4490
+	set osd_battery_usage_pos = 2645
+	set osd_disarmed_pos = 171
+	set osd_esc_rpm_freq_pos = 289
+	set osd_log_status_pos = 378
+	set osd_rcchannels_pos = 33
+	set osd_efficiency_pos = 23
+	set osd_sys_goggle_voltage_pos = 5257
+	set osd_sys_lq_pos = 5225
+	set osd_sys_goggle_dvr_pos = 5192
+	set osd_sys_warnings_pos = 5161
+	set osd_sys_vtx_temp_pos = 393
+	set osd_sys_fan_speed_pos = 5289
+	set osd_stat_bitmask = 2100792
+	set osd_displayport_device = MSP
+
+#$ OPTION END
+
+#$ OPTION_GROUP BEGIN: FC (réglage PID loop)
+	#$ OPTION BEGIN (UNCHECKED): F7 (8 Khz)
+		set pid_process_denom = 1
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): F4 (4 Khz)
+		set pid_process_denom = 2
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: ESC (réglage ampérage)
+	#$ OPTION BEGIN (UNCHECKED): MAMBA F40 _ BLS MINI
+		set ibata_scale = 183
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): MAMBA F50 _ BLS
+		set ibata_scale = 80
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Moteurs (réglage PÔLES + DSHOT 300)
+	#$ OPTION BEGIN (UNCHECKED): 14 poles in 22XX, 23XX, 24XX motors
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 12 poles in 08XX, 11XX, 12XX, 13XX, 14XX, 16XX motors
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 12
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+# https://oscarliang.com/how-to-enable-and-configure-betaflight-dynamic-idle/
+#$ OPTION_GROUP BEGIN: Hélices (Dynamic idle)
+	#$ OPTION BEGIN (UNCHECKED): 3" pitch au delà de 3.5
+		set dyn_idle_min_rpm = 40
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 5" pitch au delà de 3.5
+		set dyn_idle_min_rpm = 25
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: VOLUME BATTERIE
+	#$ OPTION BEGIN (CHECKED): 1500 mah
+		set bat_capacity = 1500
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 850 mah
+		set bat_capacity = 850
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 550 mah
+		set bat_capacity = 550
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION BEGIN (UNCHECKED): GPS
+	# feature
+	feature GPS
+	set failsafe_procedure = GPS-RESCUE
+	set gps_rescue_allow_arming_without_fix = ON
+	set gps_rescue_min_sats = 7
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): N'A PAS DE BUZZER
+	beacon RX_LOST
+	beacon RX_SET
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): LED (roses)
+	
+	# feature
+	feature LED_STRIP
+	
+	# led
+	led 0 12,11::L:9
+	led 1 13,11::C:10
+	led 2 14,11::C:10
+	led 3 15,11::C:10
+
+	set ledstrip_profile = RACE
+	set ledstrip_race_color = DEEP_PINK
+
+#$ OPTION END
+
