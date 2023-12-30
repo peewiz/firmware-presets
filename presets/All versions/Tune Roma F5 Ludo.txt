@@ -22,10 +22,8 @@ set dyn_notch_q = 500
 set gyro_lpf1_dyn_min_hz = 0
 set debug_mode = GYRO_SCALED
 set dshot_bidir = ON
-set bat_capacity = 1500
 set motor_pwm_protocol = DSHOT300
 set yaw_motors_reversed = ON
-set small_angle = 180
 
 # beeper
 beeper -ON_USB
