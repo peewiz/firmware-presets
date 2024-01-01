@@ -72,6 +72,9 @@ set debug_mode = GYRO_SCALED
 	set roll_srate = 20
 	set pitch_srate = 20
 	set yaw_srate = 20
+	
+	# restore original rateprofile selection
+	rateprofile 0
 
 #$ OPTION END
 
@@ -127,10 +130,10 @@ set debug_mode = GYRO_SCALED
 #$ OPTION END
 
 #$ OPTION_GROUP BEGIN: FC (réglage PID loop)
-	#$ OPTION BEGIN (UNCHECKED): F7 (8 Khz)
+	#$ OPTION BEGIN (UNCHECKED): F7 (PID loop 8 Khz)
 		set pid_process_denom = 1
 	#$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): F4 (4 Khz)
+	#$ OPTION BEGIN (UNCHECKED): F4 (PID loop 4 Khz)
 		set pid_process_denom = 2
 	#$ OPTION END
 #$ OPTION_GROUP END
