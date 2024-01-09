@@ -160,7 +160,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/All versions/Larva X.txt",
+      "fullPath": "presets/Ludo/Larva X.txt",
       "hash": "3c852c15ca18a293952d1a1dda46d586318a5fe01ea0a8242a8049b83d66d941",
       "title": "Larva X Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
@@ -178,7 +178,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/All versions/presets Ludo.txt",
+      "fullPath": "presets/Ludo/presets Ludo.txt",
       "hash": "af8296129996db7e48e7137317ce22387a39df2fe78e7fd64d826f05a6a1507d",
       "title": "Presets Ludo (Modes, Rates, OSD)",
       "firmware_version": [
@@ -198,7 +198,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/All versions/Tune 3'' apex.txt",
+      "fullPath": "presets/Ludo/Tune 3'' apex.txt",
       "hash": "5dc249b92f04d425afcdeda61cdc68c83587f57ff473dc87ba5281398895cc39",
       "title": "Roma F5 Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
@@ -216,7 +216,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/All versions/Tune Armattan Badger Ludo.txt",
+      "fullPath": "presets/Ludo/Tune Armattan Badger Ludo.txt",
       "hash": "0302bcf2f8df1b4daed53380615805d5cc3d85d6bd46c1b1b4bc23af4fc2cee7",
       "title": "Armattan Badger Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
@@ -234,7 +234,7 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/All versions/Tune Roma F5 Ludo.txt",
+      "fullPath": "presets/Ludo/Tune Roma F5 Ludo.txt",
       "hash": "8a69e339979610f88c3778260f674987262f1014d0d9a2306b702304308027b3",
       "title": "Roma F5 Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
