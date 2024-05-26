@@ -144,6 +144,7 @@
     ],
     "keywords": [
       "Armattan",
+      "ELRS",
       "filters",
       "Ludo",
       "modes",
@@ -152,15 +153,13 @@
       "pid",
       "rates",
       "Roma F5",
-      "tune",
-      "TX12",
-      "walksnail"
+      "tune"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/Ludo/Pickle.txt",
-      "hash": "c1653f02730e76cf4d45577214542d0ef10daddd9832cb8b325690f7f55eea0d",
+      "hash": "a9e4409f75db6eb7bba17b4ae227dc919703318e85277f70f8cb134b1b6396e7",
       "title": "Pickle Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"
@@ -178,8 +177,8 @@
     },
     {
       "fullPath": "presets/Ludo/presets Ludo.txt",
-      "hash": "e0e1da876a425fe44ad39e36449bc4df68eac4d3abe4bce0f6b8fd0503c2fd63",
-      "title": "Presets Ludo (Modes, Rates, OSD)",
+      "hash": "3977d2e19f5c10316c29b0913c257943a9210570553369ea5dad3dcb2f478fa5",
+      "title": "Presets Ludo (Modes, Rates, ELRS, OSD)",
       "firmware_version": [
         "4.5"
       ],
@@ -187,18 +186,17 @@
       "status": "COMMUNITY",
       "keywords": [
         "Ludo",
-        "OSD",
         "rates",
         "modes",
-        "TX12",
-        "walksnail"
+        "ELRS",
+        "OSD"
       ],
       "author": "Peewiz",
       "priority": 0
     },
     {
       "fullPath": "presets/Ludo/Tune 3'' apex.txt",
-      "hash": "5dc249b92f04d425afcdeda61cdc68c83587f57ff473dc87ba5281398895cc39",
+      "hash": "ae2426839addb81c1712e6ebcf4745143ceb55473481a72c159b8a6f9f2a87f3",
       "title": "Roma F5 Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"
@@ -234,7 +232,7 @@
     },
     {
       "fullPath": "presets/Ludo/Tune Roma F5 Ludo.txt",
-      "hash": "8a69e339979610f88c3778260f674987262f1014d0d9a2306b702304308027b3",
+      "hash": "7dc39dc67447372da9e341e7c1bbdc0207bf94fa965bc1d227fbd9ce649d4d9f",
       "title": "Roma F5 Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"

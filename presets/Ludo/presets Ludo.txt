@@ -1,8 +1,8 @@
-#$ TITLE: Presets Ludo (Modes, Rates, OSD)
+#$ TITLE: Presets Ludo (Modes, Rates, ELRS, OSD)
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OTHER
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: Ludo, OSD, rates, modes, TX12, walksnail
+#$ KEYWORDS: Ludo, rates, modes, ELRS, OSD
 #$ AUTHOR: Peewiz
 #$ DESCRIPTION: *** Modes (Radiomaster TX12 Ludo)
 #$ DESCRIPTION: 
@@ -12,7 +12,8 @@
 #$ DESCRIPTION: Picth = 120 / 700 / 0.20
 #$ DESCRIPTION: Yaw   = 120 / 700 / 0.20
 #$ DESCRIPTION: 
-
+#$ DESCRIPTION: *** ELRS (250hz - Racing)
+#$ DESCRIPTION: 
 
 # map
 map TAER1234
@@ -131,6 +132,23 @@ set blackbox_disable_gps = ON
 	set osd_displayport_device = MSP
 
 #$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): ELRS 250hz - Racing (25 of auto RC smoothing = 140hz RC smoothing)
+	# basic requirements for ExpressLRS 
+	feature RX_SERIAL
+	set serialrx_provider = CRSF
+
+	# 250hz default settings in case no-one selects a tuning option
+	set feedforward_averaging = 2_POINT
+
+	# sharp handling for racing:
+	set feedforward_smooth_factor = 35
+	set feedforward_jitter_factor = 4
+	set feedforward_boost = 18
+	set rc_smoothing_auto_factor = 25
+	set rc_smoothing_auto_factor_throttle = 25
+#$ OPTION END
+
 
 #$ OPTION_GROUP BEGIN: FC (réglage PID loop)
 	#$ OPTION BEGIN (UNCHECKED): F7 (PID loop 8 Khz)
