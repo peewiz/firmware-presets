@@ -11,9 +11,7 @@
 #$ DESCRIPTION: Roll  = 120 / 700 / 0.20
 #$ DESCRIPTION: Picth = 120 / 700 / 0.20
 #$ DESCRIPTION: Yaw   = 120 / 700 / 0.20
-#$ DESCRIPTION: Trottle= 0.20 / 0.20
 #$ DESCRIPTION: 
-#$ DESCRIPTION: ATTENTION : Trottle expo à re-configurer manuellement seleon les moteurs ! 
 
 
 # map
@@ -26,7 +24,12 @@ set small_angle = 180
 set dshot_bidir = ON
 set yaw_motors_reversed = ON
 set report_cell_voltage = ON
-set debug_mode = GYRO_SCALED
+
+#Blackbox
+set blackbox_device = NONE
+set blackbox_disable_bat = ON
+set blackbox_disable_alt = ON
+set blackbox_disable_gps = ON
 
 #$ OPTION BEGIN (CHECKED): Modes
 
@@ -161,11 +164,17 @@ set debug_mode = GYRO_SCALED
 #$ OPTION_GROUP END
 
 # https://oscarliang.com/how-to-enable-and-configure-betaflight-dynamic-idle/
-#$ OPTION_GROUP BEGIN: Hélices (Dynamic idle)
-	#$ OPTION BEGIN (UNCHECKED): 3" pitch au delà de 3.5
-		set dyn_idle_min_rpm = 40
+#$ OPTION_GROUP BEGIN: Hélices (Dynamic idle) pour un pas > 3.5
+	#$ OPTION BEGIN (UNCHECKED): 2" 
+		set dyn_idle_min_rpm = 70
 	#$ OPTION END
-	#$ OPTION BEGIN (UNCHECKED): 5" pitch au delà de 3.5
+	#$ OPTION BEGIN (UNCHECKED): 2.5" 
+		set dyn_idle_min_rpm = 60
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 3"
+		set dyn_idle_min_rpm = 45
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 5"
 		set dyn_idle_min_rpm = 25
 	#$ OPTION END
 #$ OPTION_GROUP END
@@ -174,6 +183,9 @@ set debug_mode = GYRO_SCALED
 #$ OPTION_GROUP BEGIN: VOLUME BATTERIE
 	#$ OPTION BEGIN (CHECKED): 1500 mah
 		set bat_capacity = 1500
+	#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): 1300 mah
+		set bat_capacity = 1300
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): 850 mah
 		set bat_capacity = 850

@@ -133,7 +133,6 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.4",
       "4.5"
     ],
     "category": [
@@ -146,10 +145,10 @@
     "keywords": [
       "Armattan",
       "filters",
-      "Larva X",
       "Ludo",
       "modes",
       "OSD",
+      "Pickle",
       "pid",
       "rates",
       "Roma F5",
@@ -160,11 +159,11 @@
   },
   "presets": [
     {
-      "fullPath": "presets/Ludo/Larva X.txt",
-      "hash": "3c852c15ca18a293952d1a1dda46d586318a5fe01ea0a8242a8049b83d66d941",
-      "title": "Larva X Ludo : SERIALS + TUNE + FILTERS",
+      "fullPath": "presets/Ludo/Pickle.txt",
+      "hash": "c1653f02730e76cf4d45577214542d0ef10daddd9832cb8b325690f7f55eea0d",
+      "title": "Pickle Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
-        "4.4"
+        "4.5"
       ],
       "category": "TUNE",
       "status": "COMMUNITY",
@@ -172,14 +171,14 @@
         "tune",
         "pid",
         "filters",
-        "Larva X"
+        "Pickle"
       ],
       "author": "Peewiz",
       "priority": 1000000000000
     },
     {
       "fullPath": "presets/Ludo/presets Ludo.txt",
-      "hash": "af8296129996db7e48e7137317ce22387a39df2fe78e7fd64d826f05a6a1507d",
+      "hash": "e0e1da876a425fe44ad39e36449bc4df68eac4d3abe4bce0f6b8fd0503c2fd63",
       "title": "Presets Ludo (Modes, Rates, OSD)",
       "firmware_version": [
         "4.5"
