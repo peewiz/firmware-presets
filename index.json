@@ -159,7 +159,7 @@
   "presets": [
     {
       "fullPath": "presets/Ludo/Pickle.txt",
-      "hash": "a9e4409f75db6eb7bba17b4ae227dc919703318e85277f70f8cb134b1b6396e7",
+      "hash": "52541a0b161fae7a10ba6fda58979550a835e9ae1bad4e56b13c35217e2e97b0",
       "title": "Pickle Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"
@@ -177,7 +177,7 @@
     },
     {
       "fullPath": "presets/Ludo/presets Ludo.txt",
-      "hash": "3977d2e19f5c10316c29b0913c257943a9210570553369ea5dad3dcb2f478fa5",
+      "hash": "3b5b6b9d47ab668cd356c5c23a8615a7b9ef5c903a00e014ad3abf97704bf663",
       "title": "Presets Ludo (Modes, Rates, ELRS, OSD)",
       "firmware_version": [
         "4.5"
