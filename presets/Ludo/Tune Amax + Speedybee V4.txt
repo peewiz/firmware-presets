@@ -1,0 +1,52 @@
+#$ TITLE:  AMAX SB V4 : SERIALS + TUNE + FILTERS
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, filters, Armattan
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: AMAX SpeedyBee V4 Ludo : TUNE + FILTERS
+
+# name: AMAX SpeedyBee V4
+set craft_name = AMAX SpeedyBee V4
+
+# serial
+set osd_displayport_device = MSP
+serial 0 131073 115200 57600 0 115200
+serial 3 0 115200 57600 0 115200
+serial 4 0 115200 57600 0 115200
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 500
+set gyro_lpf1_dyn_min_hz = 0
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_static_hz = 97
+set dterm_lpf2_static_hz = 195
+set p_pitch = 61
+set i_pitch = 98
+set d_pitch = 44
+set f_pitch = 162
+set p_roll = 58
+set i_roll = 93
+set d_roll = 39
+set f_roll = 156
+set p_yaw = 58
+set i_yaw = 93
+set f_yaw = 156
+set d_min_roll = 39
+set d_min_pitch = 44
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 4
+set feedforward_boost = 18
+set simplified_master_multiplier = 130
+set simplified_i_gain = 90
+set simplified_dmax_gain = 0
+set simplified_dterm_filter_multiplier = 130
