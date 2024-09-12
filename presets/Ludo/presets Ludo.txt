@@ -16,7 +16,6 @@
 #$ DESCRIPTION: 
 
 # map
-map TAER1234
 set min_check = 1020
 feature TELEMETRY
 
@@ -34,18 +33,22 @@ set blackbox_disable_gps = ON
 
 #$ OPTION BEGIN (CHECKED): Modes
 
+
 	# aux
 	aux 0 0 0 1700 2100 0 0
-	aux 1 46 3 1300 2100 0 0
-	aux 2 13 1 1700 2100 0 0
-	aux 3 13 2 1700 2100 1 0
-	aux 4 35 2 1700 2100 0 0
-	aux 5 36 2 1700 2100 0 0
-	aux 6 36 1 1700 2100 0 0
+	aux 1 13 3 1700 2100 0 0
+	aux 2 13 5 1700 2100 1 0
+	aux 3 26 7 1150 1250 0 0
+	aux 4 30 7 1550 1675 0 0
+	aux 5 35 5 1700 2100 0 0
+	aux 6 36 3 1700 2100 0 0
+	aux 7 36 5 1700 2100 0 0
+	aux 8 49 7 1350 1450 0 0
 
 	# adjrange
-	adjrange 0 0 5 900 2100 29 5 0 0
-	adjrange 1 0 4 900 2100 30 4 0 0
+	adjrange 0 0 1 900 2100 29 5 0 0
+	adjrange 1 0 2 900 2100 30 4 0 0
+
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Rates (Actual=120/700/0.20  Trottle=0.20/ 0.20)
