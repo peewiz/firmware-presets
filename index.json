@@ -177,7 +177,7 @@
     },
     {
       "fullPath": "presets/Ludo/presets Ludo.txt",
-      "hash": "8ee33b5f413bf6e1faff9738172105f58b4fadfa23f1969b5eebfc5da8f4165c",
+      "hash": "54801848d05d4607d2eec111ce7245f353c22ccc806fdb881d0a8eb607caeb39",
       "title": "Presets Ludo (Modes, Rates, ELRS, OSD)",
       "firmware_version": [
         "4.5"
@@ -214,8 +214,8 @@
     },
     {
       "fullPath": "presets/Ludo/Tune Amax + Speedybee V4.txt",
-      "hash": "bc0697e6ef98ebf39dc2c371823eb725171b3ecad5aad94d6e9aefeb91a7d908",
-      "title": "AMAX SB V4 : SERIALS + TUNE + FILTERS",
+      "hash": "60d8cdc02d495e4a54d898e1b87c2220694026a2a3e3d4f11bb82241a2cd2d38",
+      "title": "AMAX SpeedyBee V4 : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"
       ],
