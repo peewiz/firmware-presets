@@ -31,11 +31,9 @@ set blackbox_device = NONE
 set blackbox_disable_bat = ON
 set blackbox_disable_alt = ON
 set blackbox_disable_gps = ON
-set blackbox_disable_mag = ON
 set blackbox_disable_rssi = ON
 
 #$ OPTION BEGIN (CHECKED): Modes
-
 
 	# aux
 	aux 0 0 0 1700 2100 0 0
@@ -47,6 +45,7 @@ set blackbox_disable_rssi = ON
 	aux 6 36 3 1700 2100 0 0
 	aux 7 36 5 1700 2100 0 0
 	aux 8 49 7 1350 1450 0 0
+	aux 9 49 7 1550 1650 0 0
 
 	# adjrange
 	adjrange 0 0 1 900 2100 29 5 0 0
