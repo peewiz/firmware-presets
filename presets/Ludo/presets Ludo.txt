@@ -239,7 +239,7 @@ set blackbox_disable_rssi = ON
 	set gps_rescue_min_sats = 7
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): N'A PAS DE BUZZER
+#$ OPTION BEGIN (UNCHECKED): N A PAS DE BUZZER
 	beacon RX_LOST
 	beacon RX_SET
 #$ OPTION END
