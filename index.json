@@ -143,6 +143,7 @@
       "Peewiz"
     ],
     "keywords": [
+      "Apex",
       "Armattan",
       "ELRS",
       "filters",
@@ -158,25 +159,7 @@
   },
   "presets": [
     {
-      "fullPath": "presets/Ludo/Pickle.txt",
-      "hash": "52541a0b161fae7a10ba6fda58979550a835e9ae1bad4e56b13c35217e2e97b0",
-      "title": "Pickle Ludo : SERIALS + TUNE + FILTERS",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "tune",
-        "pid",
-        "filters",
-        "Pickle"
-      ],
-      "author": "Peewiz",
-      "priority": 1000000000000
-    },
-    {
-      "fullPath": "presets/Ludo/presets Ludo.txt",
+      "fullPath": "presets/Ludo/Presets Ludo.txt",
       "hash": "80e6e4d91b234c399f6a146edd7ee152fc23b4595ff9e1363885141514da95d7",
       "title": "Presets Ludo (Modes, Rates, ELRS, OSD)",
       "firmware_version": [
@@ -196,8 +179,8 @@
     },
     {
       "fullPath": "presets/Ludo/Tune 3'' apex.txt",
-      "hash": "ae2426839addb81c1712e6ebcf4745143ceb55473481a72c159b8a6f9f2a87f3",
-      "title": "Roma F5 Ludo : SERIALS + TUNE + FILTERS",
+      "hash": "a63b02c5e58445b25ef2ba212f21a94b0541f47b98df4a5bcb886cf8aedafed0",
+      "title": "APEX 3\" Ludo : SERIALS + TUNE + FILTERS",
       "firmware_version": [
         "4.5"
       ],
@@ -207,7 +190,7 @@
         "tune",
         "pid",
         "filters",
-        "Roma F5"
+        "Apex"
       ],
       "author": "Peewiz",
       "priority": 1000000000000
@@ -244,6 +227,24 @@
         "pid",
         "filters",
         "Armattan"
+      ],
+      "author": "Peewiz",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/Ludo/Tune Pickle.txt",
+      "hash": "52541a0b161fae7a10ba6fda58979550a835e9ae1bad4e56b13c35217e2e97b0",
+      "title": "Pickle Ludo : SERIALS + TUNE + FILTERS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "filters",
+        "Pickle"
       ],
       "author": "Peewiz",
       "priority": 1000000000000

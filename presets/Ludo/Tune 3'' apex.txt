@@ -1,10 +1,10 @@
-#$ TITLE:  Roma F5 Ludo : SERIALS + TUNE + FILTERS
+#$ TITLE:  APEX 3" Ludo : SERIALS + TUNE + FILTERS
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: tune, pid, filters, Roma F5
+#$ KEYWORDS: tune, pid, filters, Apex
 #$ AUTHOR: Peewiz
-#$ DESCRIPTION: 3'' Apex Ludo : TUNE + FILTERS
+#$ DESCRIPTION: 3" Apex Ludo : TUNE + FILTERS
 
 # name: ROMA F5
 set craft_name = 3" Apex
