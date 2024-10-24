@@ -172,7 +172,7 @@ set report_cell_voltage = ON
 #$ OPTION_GROUP END
 
 set blackbox_sample_rate = 1/2
-#$ OPTION_GROUP BEGIN: FC (réglage PID loop)
+#$ OPTION_GROUP BEGIN: Blackbox
 	#$ OPTION BEGIN (CHECKED): Mémoire interne
 		set blackbox_device = SPIFLASH
 	#$ OPTION END
