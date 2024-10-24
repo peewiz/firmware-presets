@@ -25,13 +25,6 @@ set dshot_bidir = ON
 set yaw_motors_reversed = ON
 set report_cell_voltage = ON
 
-#Blackbox
-set blackbox_sample_rate = 1/2
-set blackbox_device = NONE
-set blackbox_disable_bat = ON
-set blackbox_disable_alt = ON
-set blackbox_disable_gps = ON
-set blackbox_disable_rssi = ON
 
 #$ OPTION BEGIN (CHECKED): Modes
 
@@ -175,6 +168,16 @@ set blackbox_disable_rssi = ON
 	#$ OPTION END
 	#$ OPTION BEGIN (UNCHECKED): F4 (PID loop 4 Khz)
 		set pid_process_denom = 2
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+set blackbox_sample_rate = 1/2
+#$ OPTION_GROUP BEGIN: FC (réglage PID loop)
+	#$ OPTION BEGIN (CHECKED): Mémoire interne
+		set blackbox_device = SPIFLASH
+	#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): SDCARD
+		set blackbox_device = SDCARD
 	#$ OPTION END
 #$ OPTION_GROUP END
 
