@@ -1,0 +1,64 @@
+#$ TITLE:  Moblite 7 Ludo : SERIALS + TUNE + FILTERS
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: tune, pid, filters, Moblite 7
+#$ AUTHOR: Peewiz
+#$ DESCRIPTION: Moblite 7 Ludo : SERIALS + TUNE + FILTERS
+
+# name: Moblite 7
+set craft_name = Moblite 7
+
+# serial
+serial 1 131073 115200 57600 0 115200
+
+# feature
+feature -SOFTSERIAL
+feature -AIRMODE
+
+# various
+set motor_output_reordering = 0,1,2,3,4,5,6,7
+
+# filters
+set gyro_lpf1_type = PT2
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_type = PT2
+set gyro_lpf2_static_hz = 0
+set dyn_notch_count = 2
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 120
+set dyn_notch_max_hz = 500
+set gyro_lpf1_dyn_min_hz = 225
+set gyro_lpf1_dyn_max_hz = 450
+set acc_lpf_hz = 10
+
+
+profile 0
+
+# profile 0
+set anti_gravity_gain = 35
+set p_pitch = 73
+set i_pitch = 85
+set d_pitch = 67
+set f_pitch = 179
+set p_roll = 78
+set i_roll = 90
+set d_roll = 63
+set f_roll = 191
+set p_yaw = 78
+set i_yaw = 90
+set f_yaw = 191
+set d_min_roll = 63
+set d_min_pitch = 67
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 4
+set feedforward_boost = 18
+set simplified_master_multiplier = 145
+set simplified_i_gain = 65
+set simplified_d_gain = 145
+set simplified_pi_gain = 120
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 110
+set simplified_pitch_d_gain = 95
+set simplified_pitch_pi_gain = 90

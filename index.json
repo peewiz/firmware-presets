@@ -148,6 +148,7 @@
       "ELRS",
       "filters",
       "Ludo",
+      "Moblite 7",
       "modes",
       "OSD",
       "Pickle",
@@ -227,6 +228,24 @@
         "pid",
         "filters",
         "Armattan"
+      ],
+      "author": "Peewiz",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/Ludo/Tune Moblite7.txt",
+      "hash": "333a0958b079aa089c0d18b48bfd52925df638505750a4047734f508ee721a01",
+      "title": "Moblite 7 Ludo : SERIALS + TUNE + FILTERS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "tune",
+        "pid",
+        "filters",
+        "Moblite 7"
       ],
       "author": "Peewiz",
       "priority": 1000000000000
