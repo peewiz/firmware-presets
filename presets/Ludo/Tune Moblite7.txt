@@ -62,3 +62,6 @@ set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 110
 set simplified_pitch_d_gain = 95
 set simplified_pitch_pi_gain = 90
+
+# Model match pour SPI
+set expresslrs_model_id = 1
